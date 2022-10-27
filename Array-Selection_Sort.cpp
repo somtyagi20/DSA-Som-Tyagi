@@ -17,13 +17,11 @@ int main(){
         for(int i=k;i<n;i++){
         if(arr[i]<min){
             min=arr[i];
-            h=i;
-        } 
-        }
-           arr[h]=arr[k];
+            h=i;} 
+                      }
+        arr[h]=arr[k];
         arr[k]=min;
-        min=INT_MAX;
-         }
+        min=INT_MAX;       }
     // OR
     //   for(int s=0;s<n-1;s++){
     //     for(int t=s+1;t<n;t++){
