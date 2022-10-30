@@ -1,0 +1,2 @@
+1 sec = 10^8 operations(approx)
+if in any test case operations exceed limit ,program will give TLE(Time Limit Exceed)
